@@ -42,7 +42,6 @@
           echo "<pre>";
           var_dump($tableau);
           echo "</pre>";
-
           ?>
         </div>
       </div>

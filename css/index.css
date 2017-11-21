@@ -8,12 +8,12 @@ body{
 .subItem{
   background-color: white;
   height:100px;
-  border-radius: 10px;
   height: 150px;
   transition: 200ms all ease;
   top : 0;
   left: 0;
   margin-bottom: 15px;
+  color: #545454;
 }
 .subItem:hover{
   position: relative;
@@ -21,9 +21,13 @@ body{
   top: -3px;
 }
 h2{
-  font-size: 26px;
-  border-left: 4px #e25353 solid;
+  font-size: 22px;
+  border-left: 4px #4c4c4c solid;
   padding-left: 10px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 .page-header {
   padding-bottom: 9px;

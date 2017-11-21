@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="font/font-awesome-4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/index.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
 </head>
 <body>
 
