@@ -21,6 +21,15 @@
 
   <div class="row">
 
+    <a href="exercice/exercice5.php">
+      <div  class="col-xs-12 col-md-3 col-sm-5 item">
+        <div  class="col-xs-12 subItem">
+          <h2>Révision : Exercice 5</h2>
+          <p>Tests en objet</p>
+        </div>
+      </div>
+    </a>
+
     <a href="exercice/exercice4.php">
       <div  class="col-xs-12 col-md-3 col-sm-5 item">
         <div  class="col-xs-12 subItem">

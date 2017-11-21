@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Exercice 4</title>
+    <title>Exercice 5</title>
     <script type="text/javascript" src="../js/jquery-3.2.0.min.js"></script>
     <script type="text/javascript" src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
@@ -16,42 +16,33 @@
     <div class="container general">
 
       <div class="page-header">
-        <h1>CDW <small>Fonction</small></h1>
+        <h1>CDW <small>Objet test</small></h1>
       </div>
 
       <div class="row">
         <div class="col-xs-12 col-md-12">
-         <p>Calculer un prix de vente ttc : fonction avec 3 arguments :</p>
-          <ul>
-            <li>Prix ht</li>
-            <li>taux de tva en % : par défaut 20%</li>
-            <li>remise en % qui peut être Null</li>
-          </ul>
           <?php
-            function GetPrixTTC($prix,$remise=null, $taux=20 )
-            {
 
-              if (!empty($remise))
-              {
-                $ttc = $prix - ( $prix * ( $remise / 100 ) );
-                $ttc = $ttc + ( $ttc * ( $taux / 100 ) );
-              }
-              else
-              {
-                $ttc = $prix + ( $prix * ( $taux / 100 ) );
-              }
+          include_once('AppWiki/Class/Article.php');
 
-              if ($ttc < 0)
-              {
-                $ttc = 0;
-              }
+          $tableau = array(
+           sTitre         => "Titre",
+           iAuteurId      => "1",
+           sContenu       => "Contenu",
+           dDateAjout     => "21/11/17",
+           dDateLastModif => "21/11/17",
+           bActif         => 1,
+           aCategories    => NULL
+          );
 
-              $ttc = number_format($ttc, 2);
+          $article = new Article();
 
-              return $ttc;
-            }
+          $article->hydrate($tableau);
 
-            echo GetPrixTTC(153.2251654684,20);
+          echo "<pre>";
+          var_dump($tableau);
+          echo "</pre>";
+
           ?>
         </div>
       </div>
