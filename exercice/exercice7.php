@@ -32,14 +32,51 @@
           $values = array(
             'sNom'    => 'Toto',
             'sPrenom' => 'Gugusse',
-            'sMail'   => 'toto@gmail.com',
-            'sPwd'    => 'momo'
+            'sMail'   => 'tottoo@gmail.com',
+            'sPwd'    => hash('sha512','momo')
           );
+//          $requete = 'INSERT INTO user
+//          (
+//           usr_sNom,
+//           usr_sPrenom,
+//           usr_sMail,
+//           usr_sPwd
+//           ) VALUES (
+//           :sNom,
+//           :sPrenom,
+//           :sMail,
+//           :sPwd
+//           )';
 
+          $requete = 'SELECT * FROM user ';
 
           $requeterie = new Connexion();
+          $panier = $requeterie->fetchSelect($requete, $values);
 
-          $requeterie->requete('INSERT INTO', 'user', $values);
+          if (count($panier)>0)
+          {
+            foreach ($panier as $key => $value)
+            {
+              echo "<pre>";
+              var_dump($value["usr_sPrenom"]);
+              var_dump($value["usr_sNom"]);
+              echo "</pre>";
+            }
+          }
+          else
+          {
+            echo "<p>Aucuns résultats</p>";
+          }
+
+//          echo "<pre>";
+//          var_dump($panier);
+//          echo "</pre>";
+//
+//          echo "<hr>";
+
+
+
+
           ?>
         </div>
       </div>

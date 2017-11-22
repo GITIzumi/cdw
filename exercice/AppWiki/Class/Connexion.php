@@ -4,6 +4,7 @@ class Connexion
 {
   //propriétés
   private $connexion;
+  private $stmt;
 
   public function __construct()
   {
@@ -23,45 +24,9 @@ class Connexion
     }
   }
 
-  public function requete($type, $table, $values)
+  public function requete($requete, $values)
   {
-    $requete1 = 'SHOW COLUMNS FROM '.$table.' ';
-    $resultats = $this->connexion->query($requete1);    // exécution de la requete
-    $resultats->setFetchMode(PDO::FETCH_OBJ);    //  ou FETCH_ASSOC
-    $resultat = $resultats->fetch();
-
-//    echo "<pre>";
-//    var_dump($resultat);
-//    echo "</pre>";
-
-    $field   = $resultat->Field;
-    $prefixe = explode('_',$field)["0"].'_';
-    echo "<pre>";
-    var_dump($prefixe);
-    echo "</pre>";
-
-    $sChamp = '';
-    $sValeur = '';
-    $a = 0;
-    foreach ($values as $champ => $value)
-    {
-      if ($a == 0)
-      {
-        $sChamp  .= $prefixe.''.$champ;
-        $sValeur .= $value;
-        $a = 1;
-      }
-      else
-      {
-        $sChamp  .= ','.$prefixe.''.$champ;
-        $sValeur .= ','.$value;
-      }
-    }
-
-    $requettage = $type.' '.$table.' ('.$sChamp.') VALUES ('.$sValeur.')';
-
-
-    $stmt = $this->connexion->prepare($requettage); //On prépare la requête
+    $stmt = $this->connexion->prepare($requete); //On prépare la requête
 
     foreach ($values as $champ => $value)
     {
@@ -69,48 +34,44 @@ class Connexion
 
       if ($tychamp == "s")
       {
-        $typeParam = 'PDO::PARAM_STR';
+        $typeParam = PDO::PARAM_STR;
       }
       $stmt->bindValue($champ,$value, $typeParam);
     }
-    $resultats->closeCursor();
+
+    $stmt->execute();
+//    $stmt->closeCursor();
+
+   if (substr($requete,0,3) == "DEL")
+   {
+      return $stmt->rowCount();
+   }
+   elseif(substr($requete,0,3) == "INS")
+   {
+     return $this->connexion->lastInsertId();
+   }
+   elseif(substr($requete,0,3) == "UPD")
+   {
+     return $stmt->rowCount();
+   }
+   elseif(substr($requete,0,3) == "SEL")
+   {
+     $this->stmt = $stmt;
+     return $stmt->rowCount();
+   }
   }
 
-
-
-  // Hydratation
-//  public function hydrate(array $aValeurs)
-//  {
-//    if (!empty($aValeurs))
-//    {
-//      foreach ($aValeurs as $prop => $val)
-//      {
-//        $meth = "set_".$prop;
-//        if (method_exists($meth))
-//        {
-//          $this->$meth($val);
-//        }
-//      }
-//    }
-//  }
-
-  public function __get($property)
+  public function fetchSelect($requete, $values)
   {
-    return 'La propriété'.$property.'n\'existe pas.';
+      $this->requete($requete, $values);
+      $tableau = array();
+      while($row = $this->stmt->fetch(PDO::FETCH_ASSOC))
+      {
+        array_push($tableau,$row);
+      }
+      return $tableau;
+
+
   }
-
-  //SETTERS
-//  public function set_iAuteurId(int $idAuteur)
-//  {
-//    $this->iAuteurId = $idAuteur;
-//  }
-
-
-  //GETTERS
-//  public function get_iAuteurId()
-//  {
-//    return $this->iAuteurId;
-//  }
-
 
 }
