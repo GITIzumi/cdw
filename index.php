@@ -22,6 +22,24 @@
 
   <div class="row">
 
+    <a href="exercice/exercice7.php">
+      <div  class="col-xs-12 col-md-3 col-sm-5 item">
+        <div  class="col-xs-12 subItem">
+          <h2>Révision : Exercice 7</h2>
+          <p>Class Connexion</p>
+        </div>
+      </div>
+    </a>
+
+    <a href="exercice/exercice6.php">
+      <div  class="col-xs-12 col-md-3 col-sm-5 item">
+        <div  class="col-xs-12 subItem">
+          <h2>Révision : Exercice 6</h2>
+          <p>Requête PDO</p>
+        </div>
+      </div>
+    </a>
+
     <a href="exercice/exercice5.php">
       <div  class="col-xs-12 col-md-3 col-sm-5 item">
         <div  class="col-xs-12 subItem">
