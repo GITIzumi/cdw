@@ -25,7 +25,9 @@
 
       <div class="row">
         <div class="col-xs-12 col-md-12">
+          <p>Remettre la class Connexion.moiphp</p>
           <?php
+
           include_once('connexion.php');
           include_once('AppWiki/Class/Connexion.php');
 
@@ -73,7 +75,6 @@
 //          echo "</pre>";
 //
 //          echo "<hr>";
-
 
 
 

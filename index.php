@@ -22,6 +22,15 @@
 
   <div class="row">
 
+    <a href="exercice/AppWiki/index.php">
+      <div  class="col-xs-12 col-md-3 col-sm-5 item">
+        <div  class="col-xs-12 subItem">
+          <h2>Révision : Exercice 8</h2>
+          <p>App wiki</p>
+        </div>
+      </div>
+    </a>
+
     <a href="exercice/exercice7.php">
       <div  class="col-xs-12 col-md-3 col-sm-5 item">
         <div  class="col-xs-12 subItem">
