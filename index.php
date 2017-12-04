@@ -22,6 +22,24 @@
 
   <div class="row">
 
+    <a href="exercice/AppWiki2/index.php">
+      <div  class="col-xs-12 col-md-3 col-sm-5 item">
+        <div  class="col-xs-12 subItem">
+          <h2>Révision : Exercice 10</h2>
+          <p>MVC</p>
+        </div>
+      </div>
+    </a>
+
+    <a href="exercice/exercice9.php">
+      <div  class="col-xs-12 col-md-3 col-sm-5 item">
+        <div  class="col-xs-12 subItem">
+          <h2>Révision : Exercice 9</h2>
+          <p>Expressions régulières</p>
+        </div>
+      </div>
+    </a>
+
     <a href="exercice/AppWiki/index.php">
       <div  class="col-xs-12 col-md-3 col-sm-5 item">
         <div  class="col-xs-12 subItem">
