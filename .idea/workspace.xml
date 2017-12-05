@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="8cb7a4bc-5952-4dea-aa42-a599ed5206a6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exercice/AppWiki2/controller/ArticleController.php" afterPath="$PROJECT_DIR$/exercice/AppWiki2/controller/ArticleController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exercice/AppWiki2/library/Root.php" afterPath="$PROJECT_DIR$/exercice/AppWiki2/library/Root.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exercice/AppWiki2/model/Article/Article.php" afterPath="$PROJECT_DIR$/exercice/AppWiki2/model/Article/Article.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exercice/AppWiki2/model/Article/ArticleManager.php" afterPath="$PROJECT_DIR$/exercice/AppWiki2/model/Article/ArticleManager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exercice/AppWiki2/view/Article/articlesListe.html" afterPath="$PROJECT_DIR$/exercice/AppWiki2/view/Article/articlesListe.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,43 +18,80 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercice/AppWiki2/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercice/AppWiki2/controller/UserController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ArticleController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exercice/AppWiki2/controller/ArticleController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="446">
+              <caret line="143" column="15" lean-forward="true" selection-start-line="143" selection-start-column="15" selection-end-line="143" selection-end-column="15" />
               <folding>
-                <marker date="1512401960312" expanded="true" signature="399:462" ph="..." />
+                <marker date="1512473131684" expanded="true" signature="447:510" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="articlesListe.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ArticleManager.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercice/AppWiki2/model/Article/ArticleManager.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="145" column="0" lean-forward="true" selection-start-line="145" selection-start-column="0" selection-end-line="146" selection-end-column="32" />
+              <folding>
+                <marker date="1512472658560" expanded="true" signature="385:1380" ph="..." />
+                <marker date="1512472658560" expanded="true" signature="397:434" ph="..." />
+                <marker date="1512472658560" expanded="true" signature="397:561" ph="..." />
+                <marker date="1512472658560" expanded="true" signature="397:607" ph="..." />
+                <marker date="1512472658560" expanded="true" signature="619:813" ph="..." />
+                <marker date="1512472658560" expanded="true" signature="825:1056" ph="..." />
+                <marker date="1512472658560" expanded="true" signature="1068:1238" ph="..." />
+                <marker date="1512472658560" expanded="true" signature="1068:1249" ph="..." />
+                <marker date="1512472658560" expanded="true" signature="1261:1366" ph="..." />
+                <marker date="1512472658560" expanded="true" signature="1533:1691" ph="SELECT art_i... article" />
+                <marker date="1512472658560" expanded="true" signature="1533:1716" ph="SELECT art_i... article" />
+                <marker date="1512472658560" expanded="true" signature="2235:2555" ph="SELECT artic... article" />
+                <marker date="1512472658560" expanded="true" signature="2235:2556" ph="SELECT artic... article" />
+                <marker date="1512472658560" expanded="true" signature="2235:2567" ph="SELECT artic... article" />
+                <marker date="1512472658560" expanded="true" signature="2729:2779" ph="..." />
+                <marker date="1512472658560" expanded="true" signature="3156:3245" ph="SELECT cat_i... categorie" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Connexion.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercice/AppWiki2/library/Connexion.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="articleModif.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercice/AppWiki2/view/Article/articleModif.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="62">
+              <caret line="42" column="27" lean-forward="true" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="articlesAdd.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercice/AppWiki2/view/Article/articlesAdd.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="131" column="27" lean-forward="true" selection-start-line="131" selection-start-column="27" selection-end-line="131" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="articlesListe.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exercice/AppWiki2/view/Article/articlesListe.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="290" column="0" lean-forward="true" selection-start-line="290" selection-start-column="0" selection-end-line="290" selection-end-column="0" />
+            <state relative-caret-position="70">
+              <caret line="130" column="70" lean-forward="true" selection-start-line="130" selection-start-column="70" selection-end-line="130" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -59,8 +100,18 @@
       <file leaf-file-name="Article.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exercice/AppWiki2/model/Article/Article.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1040">
-              <caret line="65" column="32" lean-forward="false" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="32" />
+            <state relative-caret-position="48">
+              <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="articlesAdmin.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercice/AppWiki2/view/Article/articlesAdmin.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="91">
+              <caret line="104" column="10" lean-forward="true" selection-start-line="104" selection-start-column="10" selection-end-line="104" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -76,17 +127,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArticleManager.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercice/AppWiki2/model/Article/ArticleManager.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/exercice/AppWiki/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+            <state relative-caret-position="139">
+              <caret line="70" column="34" lean-forward="true" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
               <folding>
-                <marker date="1512401741013" expanded="true" signature="241:388" ph="SELECT art_i... article" />
-                <marker date="1512401741013" expanded="true" signature="907:1227" ph="SELECT artic... article" />
-                <marker date="1512401741013" expanded="true" signature="907:1228" ph="SELECT artic... article" />
-                <marker date="1512401741013" expanded="true" signature="907:1239" ph="SELECT artic... article" />
-                <marker date="1512401741013" expanded="true" signature="1401:1451" ph="..." />
+                <marker date="1511798005256" expanded="true" signature="2367:2738" ph="INSERT INTO article... " />
               </folding>
             </state>
           </provider>
@@ -99,6 +146,25 @@
       <find>driver</find>
       <find>string</find>
       <find>query</find>
+      <find>menu</find>
+      <find>$aValeurs</find>
+      <find>créer</find>
+      <find>article</find>
+      <find>grid</find>
+      <find>grid view</find>
+      <find>choose</find>
+      <find>form</find>
+      <find>get_art_sSlug</find>
+      <find>art_sSlug</find>
+      <find>$art_sSlug</find>
+      <find>slug</find>
+      <find>$aValeurs$aValeurs</find>
+      <find>post</find>
+      <find>var_dump</find>
+      <find>articleMo</find>
+      <find>pre</find>
+      <find>var_du</find>
+      <find>hydrate</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -133,11 +199,17 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/exercice/AppWiki2/controller/UserController.php" />
         <option value="$PROJECT_DIR$/exercice/AppWiki2/view/home.php" />
-        <option value="$PROJECT_DIR$/exercice/AppWiki2/library/Root.php" />
         <option value="$PROJECT_DIR$/exercice/AppWiki2/index.php" />
+        <option value="$PROJECT_DIR$/exercice/AppWiki2/view/Article/articlesAdd.html" />
+        <option value="$PROJECT_DIR$/exercice/AppWiki2/library/Root.php" />
+        <option value="$PROJECT_DIR$/exercice/AppWiki2/view/Article/articlesListe.html" />
+        <option value="$PROJECT_DIR$/exercice/AppWiki2/view/Article/articlesShow.html" />
+        <option value="$PROJECT_DIR$/exercice/AppWiki2/view/Article/articlesAdmin.html" />
+        <option value="$PROJECT_DIR$/exercice/AppWiki2/model/Article/ArticleForm.php" />
+        <option value="$PROJECT_DIR$/exercice/AppWiki2/model/Article/Article.php" />
+        <option value="$PROJECT_DIR$/exercice/AppWiki2/view/Article/articleModif.html" />
         <option value="$PROJECT_DIR$/exercice/AppWiki2/model/Article/ArticleManager.php" />
         <option value="$PROJECT_DIR$/exercice/AppWiki2/controller/ArticleController.php" />
-        <option value="$PROJECT_DIR$/exercice/AppWiki2/view/Article/articlesListe.html" />
       </list>
     </option>
   </component>
@@ -149,9 +221,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="101" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="-7" />
+    <option name="width" value="1247" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -185,6 +257,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -201,6 +274,12 @@
               <item name="cdw" type="b2602c69:ProjectViewProjectNode" />
               <item name="cdw" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="exercice" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AppWiki" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="cdw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cdw" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="exercice" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="AppWiki2" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -209,27 +288,6 @@
               <item name="exercice" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="AppWiki2" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="controller" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="cdw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cdw" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="exercice" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="AppWiki2" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="cdw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cdw" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="exercice" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="AppWiki2" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="cdw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cdw" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="exercice" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="AppWiki2" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="less" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="cdw" type="b2602c69:ProjectViewProjectNode" />
@@ -258,13 +316,6 @@
               <item name="cdw" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="exercice" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="AppWiki2" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="php" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="cdw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cdw" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="exercice" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="AppWiki2" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -285,7 +336,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -294,11 +344,11 @@
     <property name="last_opened_file_path" value="C:/Program Files (x86)/Git/cmd/git.exe" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Romain\Desktop\cdw\exercice\AppWiki\Class" />
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Romain\Desktop\cdw\exercice" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Romain\Desktop\cdw\exercice\AppWiki\Class" />
       <recent name="C:\Users\Romain\Desktop\cdw\exercice" />
     </key>
   </component>
@@ -340,27 +390,29 @@
       <workItem from="1511769918692" duration="11247000" />
       <workItem from="1511786207986" duration="8920000" />
       <workItem from="1512375017187" duration="10025000" />
-      <workItem from="1512391275992" duration="10502000" />
+      <workItem from="1512391275992" duration="10923000" />
+      <workItem from="1512410034022" duration="10998000" />
+      <workItem from="1512460342037" duration="11453000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90555000" />
+    <option name="totallyTimeSpent" value="113427000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17135416" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14895834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12407211" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10604454" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10604454" sideWeight="0.49791667" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -371,27 +423,6 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12407211" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10604454" sideWeight="0.49791667" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12760417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -406,50 +437,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/bouton.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercice/AppWiki/Class/Article.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="42" column="61" lean-forward="true" selection-start-line="42" selection-start-column="61" selection-end-line="42" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercice/exercice1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="37" column="14" lean-forward="false" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercice/exercice2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exercice/exercice3.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="640">
@@ -461,7 +448,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="58" lean-forward="false" selection-start-line="0" selection-start-column="58" selection-end-line="0" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -490,7 +476,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -519,7 +504,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="58" lean-forward="false" selection-start-line="0" selection-start-column="58" selection-end-line="0" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -579,7 +563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -587,7 +570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="25" column="52" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -611,7 +593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -626,9 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-14">
           <caret line="41" column="36" lean-forward="false" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
-          <folding>
-            <marker date="1511344781145" expanded="true" signature="2226:2449" ph="INSERT INTO user... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -653,13 +631,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
           <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-          <folding>
-            <marker date="1511790050485" expanded="true" signature="211:351" ph="SELECT art_s... article" />
-            <marker date="1511790050485" expanded="true" signature="211:358" ph="SELECT art_i... article" />
-            <marker date="1511790050485" expanded="true" signature="722:1086" ph="SELECT artic... article" />
-            <marker date="1511790050485" expanded="true" signature="722:1094" ph="SELECT artic... article" />
-            <marker date="1511790050485" expanded="true" signature="1239:1289" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -667,11 +638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="2" />
-          <folding>
-            <marker date="1511797755582" expanded="true" signature="1403:1650" ph="INSERT INTO user... " />
-            <marker date="1511797755582" expanded="true" signature="1676:1694" ph="SELECT * FRO... user" />
-            <marker date="1511797755582" expanded="true" signature="1676:1695" ph="SELECT * FRO... user" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -679,7 +645,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="101" column="22" lean-forward="false" selection-start-line="101" selection-start-column="22" selection-end-line="101" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -687,73 +652,132 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="496">
           <caret line="31" column="8" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercice/AppWiki/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="58" column="4" lean-forward="true" selection-start-line="58" selection-start-column="4" selection-end-line="64" selection-end-column="7" />
-          <folding>
-            <marker date="1511798005256" expanded="true" signature="2367:2738" ph="INSERT INTO article... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercice/AppWiki2/view/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercice/AppWiki2/view/articlesListe.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercice/AppWiki2/model/Article/ArticleManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-          <folding>
-            <marker date="1512401741013" expanded="true" signature="241:388" ph="SELECT art_i... article" />
-            <marker date="1512401741013" expanded="true" signature="907:1227" ph="SELECT artic... article" />
-            <marker date="1512401741013" expanded="true" signature="907:1228" ph="SELECT artic... article" />
-            <marker date="1512401741013" expanded="true" signature="907:1239" ph="SELECT artic... article" />
-            <marker date="1512401741013" expanded="true" signature="1401:1451" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/exercice/AppWiki2/view/home.php" />
+    <entry file="file://$PROJECT_DIR$/exercice/AppWiki2/view/articlesListe.html" />
     <entry file="file://$PROJECT_DIR$/exercice/AppWiki2/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        <state relative-caret-position="304">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exercice/AppWiki2/controller/UserController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercice/AppWiki2/view/Article/articlesShow.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="145" column="7" lean-forward="true" selection-start-line="145" selection-start-column="7" selection-end-line="145" selection-end-column="7" />
+          <folding>
+            <element signature="e#7860#7866#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercice/AppWiki2/model/Article/ArticleForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="79" column="2" lean-forward="false" selection-start-line="79" selection-start-column="2" selection-end-line="79" selection-end-column="2" />
+          <folding>
+            <marker date="1512428440921" expanded="true" signature="342:1233" ph="..." />
+            <marker date="1512428440921" expanded="true" signature="354:534" ph="..." />
+            <marker date="1512428440921" expanded="true" signature="546:711" ph="..." />
+            <marker date="1512428440921" expanded="true" signature="723:922" ph="..." />
+            <marker date="1512428440921" expanded="true" signature="934:1102" ph="..." />
+            <marker date="1512428440921" expanded="true" signature="1114:1219" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exercice/AppWiki2/controller/ArticleController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="446">
+          <caret line="143" column="15" lean-forward="true" selection-start-line="143" selection-start-column="15" selection-end-line="143" selection-end-column="15" />
           <folding>
-            <marker date="1512401960312" expanded="true" signature="399:462" ph="..." />
+            <marker date="1512473131684" expanded="true" signature="447:510" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercice/AppWiki2/model/Article/ArticleManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="145" column="0" lean-forward="true" selection-start-line="145" selection-start-column="0" selection-end-line="146" selection-end-column="32" />
+          <folding>
+            <marker date="1512472658560" expanded="true" signature="385:1380" ph="..." />
+            <marker date="1512472658560" expanded="true" signature="397:434" ph="..." />
+            <marker date="1512472658560" expanded="true" signature="397:561" ph="..." />
+            <marker date="1512472658560" expanded="true" signature="397:607" ph="..." />
+            <marker date="1512472658560" expanded="true" signature="619:813" ph="..." />
+            <marker date="1512472658560" expanded="true" signature="825:1056" ph="..." />
+            <marker date="1512472658560" expanded="true" signature="1068:1238" ph="..." />
+            <marker date="1512472658560" expanded="true" signature="1068:1249" ph="..." />
+            <marker date="1512472658560" expanded="true" signature="1261:1366" ph="..." />
+            <marker date="1512472658560" expanded="true" signature="1533:1691" ph="SELECT art_i... article" />
+            <marker date="1512472658560" expanded="true" signature="1533:1716" ph="SELECT art_i... article" />
+            <marker date="1512472658560" expanded="true" signature="2235:2555" ph="SELECT artic... article" />
+            <marker date="1512472658560" expanded="true" signature="2235:2556" ph="SELECT artic... article" />
+            <marker date="1512472658560" expanded="true" signature="2235:2567" ph="SELECT artic... article" />
+            <marker date="1512472658560" expanded="true" signature="2729:2779" ph="..." />
+            <marker date="1512472658560" expanded="true" signature="3156:3245" ph="SELECT cat_i... categorie" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercice/AppWiki2/library/Connexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercice/AppWiki2/view/Article/articleModif.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="42" column="27" lean-forward="true" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercice/AppWiki2/view/Article/articlesAdd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="131" column="27" lean-forward="true" selection-start-line="131" selection-start-column="27" selection-end-line="131" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercice/AppWiki2/view/Article/articlesListe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="130" column="70" lean-forward="true" selection-start-line="130" selection-start-column="70" selection-end-line="130" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercice/AppWiki2/model/Article/Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercice/AppWiki2/view/Article/articlesAdmin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="104" column="10" lean-forward="true" selection-start-line="104" selection-start-column="10" selection-end-line="104" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -765,19 +789,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercice/AppWiki2/model/Article/Article.php">
+    <entry file="file://$PROJECT_DIR$/exercice/AppWiki/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1040">
-          <caret line="65" column="32" lean-forward="false" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercice/AppWiki2/view/Article/articlesListe.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="290" column="0" lean-forward="true" selection-start-line="290" selection-start-column="0" selection-end-line="290" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="139">
+          <caret line="70" column="34" lean-forward="true" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
+          <folding>
+            <marker date="1511798005256" expanded="true" signature="2367:2738" ph="INSERT INTO article... " />
+          </folding>
         </state>
       </provider>
     </entry>

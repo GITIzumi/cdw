@@ -17,6 +17,8 @@ class Article
 
   }
 
+
+
   // setters
   public function set_art_id($art_id)
   {

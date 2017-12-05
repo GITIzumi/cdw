@@ -6,7 +6,7 @@ class Root
   {
     if(!isset($_GET['c']) || !isset($_GET['a']))
     {
-      echo 'Stop !';
+      header("location:index.php?c=Article&a=ShowAll");
     }
     else
     {
